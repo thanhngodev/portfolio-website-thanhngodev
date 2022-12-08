@@ -1,0 +1,23 @@
+{
+    "profile": {
+        "name": "Thanh",
+        "full_name": "Ngo Tan Thanh",
+        "gender": "male",
+        "birthday": "20-10-2000",
+        "phone_number": "0329382782",
+        "phone_country": "(+84)",
+        "countryside": {
+            "commune": "Hoa Binh",
+            "county": "Cho Moi",
+            "province": "An Giang"
+        },
+        "work_in": "Ho Chi Minh city",
+        "university": "Can Tho University",
+        "majoring": "Information Technology (IT)"
+    },
+    "project": [
+        {
+            "title": "social book"
+        }
+    ]
+}
