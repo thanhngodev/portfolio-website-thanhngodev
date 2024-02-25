@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Website</title>
+    <title>Thanh Ngo Dev</title>
+    <link rel="icon" href="./img/thanhngodev.gif" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
   <body>
@@ -13,21 +15,13 @@
       <div class="header container">
         <div class="nav-bar">
           <div class="brand">
-            <a href="#hero">
-              <h1><span>T</span>hanh <span>N</span>go <span>D</span>ev</h1>
-            </a>
+            <a href="#hero" id="logo"></a>
           </div>
           <div class="nav-list">
             <div class="hamburger">
               <div class="bar"></div>
             </div>
-            <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
-              <li><a href="#services" data-after="Service">Services</a></li>
-              <li><a href="#projects" data-after="Projects">Projects</a></li>
-              <li><a href="#about" data-after="About">About</a></li>
-              <li><a href="#contact" data-after="Contact">Contact</a></li>
-            </ul>
+            <ul id="menu-bar"></ul>
           </div>
         </div>
       </div>
@@ -37,12 +31,7 @@
     <!-- Hero Section  -->
     <section id="hero">
       <div class="hero container" style="justify-content: space-between">
-        <div>
-          <h1>Hello, <span></span></h1>
-          <h1>My Name is <span></span></h1>
-          <h1>Ngo Tan Thanh <span></span></h1>
-          <a href="#projects" type="button" class="cta">Portfolio</a>
-        </div>
+        <div id="banner-content"></div>
       </div>
     </section>
     <!-- End Hero Section  -->
@@ -66,9 +55,8 @@
             </div>
             <h2>Angular</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
+              Angular is a popular open-source web application framework for building dynamic, 
+              single-page web applications (SPAs) and web-based user interfaces.
             </p>
           </div>
           <div class="service-item">
@@ -77,9 +65,8 @@
             </div>
             <h2>ReactJS</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
+              ReactJS, commonly referred to as React, is an open-source JS library for building UI. 
+              Developed & maintained by Facebook & a community of developers.
             </p>
           </div>
           <div class="service-item">
@@ -88,9 +75,7 @@
             </div>
             <h2>NextJS</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
+              Next.js is an open-source React framework that is used for building server-rendered and statically generated web applications. 
             </p>
           </div>
           <div class="service-item">
@@ -99,9 +84,7 @@
             </div>
             <h2>NestJS</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              debitis rerum, magni voluptatem sed architecto placeat beatae
-              tenetur officia quod
+              NestJS is a progressive, open-source Node.js framework for building efficient, scalable, and maintainable server-side applications. 
             </p>
           </div>
         </div>
@@ -228,6 +211,7 @@
 
     <!-- Contact Section -->
     <section id="contact">
+      <div id="three-container"></div>
       <div class="contact container">
         <div>
           <h1 class="section-title">Contact <span>info</span></h1>
@@ -249,7 +233,7 @@
             </div>
             <div class="contact-info">
               <h1>Email</h1>
-              <h2>thanhngoangiang@gmail.com</h2>
+              <h2>thanhngodev@gmail.com</h2>
               <h2></h2>
             </div>
           </div>
@@ -278,20 +262,20 @@
         <div class="brand">
           <h1><span>T</span>hanh <span>N</span>go <span>D</span>ev</h1>
         </div>
-        <h2>Your Complete Web Solution</h2>
+        <h2>Your Complete Web Solutions</h2>
         <div class="social-icon">
           <div class="social-item">
-            <a href="https://www.facebook.com/ngotanthanhdev"
-              ><img src="./img/facebook.png"
-            /></a>
+            <a href="https://www.facebook.com/ngotanthanhdev">
+              <img src="./img/facebook.png"/>
+            </a>
           </div>
           <div class="social-item">
             <a href="#"><img src="./img/instagram.png" /></a>
           </div>
           <div class="social-item">
-            <a href="https://github.com/thanhngodev"
-              ><img src="./img/github.png"
-            /></a>
+            <a href="https://github.com/thanhngodev">
+              <img src="./img/github.png"/>
+            </a>
           </div>
         </div>
         <p>Copyright © 2020 Ngo Tan Thanh. All rights reserved</p>
